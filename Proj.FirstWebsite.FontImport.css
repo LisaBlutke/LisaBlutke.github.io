@@ -21,7 +21,7 @@ html{
     font-family: var(--body-font);
     font-size:10px;
     color: var(--body-font-color);
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -697,4 +697,39 @@ footer{
 
 .healthtext{
     color: var(--main-font-color-dark)
+}
+
+/*Contact*/
+.contact{
+    color: var(--main-font-color-dark);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.mailadress{
+    color: var(--secondary-font-color)
+}
+
+.contact0{
+    color: var(--main-font-color-dark);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+/*Impressum*/
+
+.impressum{
+    padding-top: 5rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
